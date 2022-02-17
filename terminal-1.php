@@ -2,11 +2,19 @@
 include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
+    $cmd = $cmd. " * FROM user";
+    echo "Query => " . $cmd . ";<br>";
     $result = $db->query($cmd);
-    foreach($result as $r) {
-    //   echo  implode(" | ",$r) . "<br>";
-    echo json_encode($r);
-    // echo print_r($r, true). "<br>";
+    $cmd = "<a style='color: #9936f3;'>".$cmd. " * FROM user"."</a>";
+    if (!$result) {
+        echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
+    }else{
+        echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
+        foreach($result as $r) {
+        echo  implode(" | ",$r) . "<br>";
+        // echo json_encode($r);
+        // echo print_r($r, true). "<br>";
+        }
     }
     die(); 
 }
