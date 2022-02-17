@@ -12,8 +12,6 @@ if (ISSET($cmd)) {
         echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
         foreach($result as $r) {
         echo  implode(" | ",$r) . "<br>";
-        // echo json_encode($r);
-        // echo print_r($r, true). "<br>";
         }
     }
     die(); 
