@@ -2,18 +2,17 @@
 include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    $key = $cmd;
-    $cmd = $cmd." Database test;";
-    echo "Query => " . $cmd . "<br>";
-    // $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>".$cmd." Database test"."</a>";
-    if ($key == "DROP" || $key == "drop" || $key == "Drop") {
-        echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
-    }else{
+    $cmd = "Select * ". $cmd ." user";
+    echo "Query => " . $cmd . ";<br>";
+    $result = $db->query($cmd);
+    $cmd = "<a style='color: #9936f3;'>"."Select * ".$cmd." user"."</a>";
+    if (!$result) {
         echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
-        // foreach($result as $r) {
-        // echo  implode(" | ",$r) . "<br>";
-        // }
+    }else{
+        echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
+        foreach($result as $r) {
+        echo  implode(" | ",$r) . "<br>";
+        }
     }
     die(); 
 }

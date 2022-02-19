@@ -92,7 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>CREATE DATABASE Test; </li>
+                                    <li><a style='color: #00FF00;'><b>CREATE</b></a> DATABASE Test; </li>
                                     </ul>
                                 </p>
 							</div>
