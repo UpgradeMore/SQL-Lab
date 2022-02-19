@@ -77,13 +77,17 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 7</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+                     Write a Query to fetch a record in the table where:
                 <br><br>
-                You can search on the Internet for Linux commands.
+               
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>select *</li>
+                <li>from emp</li>
+                <li>where deptno = 10</li>
+                <li>or comm is not null</li>
+                <li>or sal <= 2000 and deptno=20</li>
+               
                 </ul>
                 </div>
             </div>
@@ -94,10 +98,8 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+                                    <li>select * from user where userid = 3</li>
+                                
                                     </ul>
                                 </p>
 							</div>
