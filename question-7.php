@@ -74,7 +74,7 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 7</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
                 So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.

@@ -1,5 +1,7 @@
 <?php
 include("db.php");
+error_reporting(0);
+error_reporting(0);
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
     $cmd = $cmd;
