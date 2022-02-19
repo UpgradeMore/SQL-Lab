@@ -105,7 +105,7 @@
                     <button type="button" class="btn btn-primary custom"><a href="question-7.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-8.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-9.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
