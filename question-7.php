@@ -77,25 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 7</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-<<<<<<< HEAD
                 Write a Query to print all the users who have a salary of 12000.
                 <br><br>
                 Example:
                 <ul>
                 <li>SELECT all FROM table_name WHERE column_name=value;</li>
-=======
-                     Write a Query to fetch a record in the table where:
-                <br><br>
-               
-                Example:
-                <ul>
-                <li>select *</li>
-                <li>from emp</li>
-                <li>where deptno = 10</li>
-                <li>or comm is not null</li>
-                <li>or sal <= 2000 and deptno=20</li>
-               
->>>>>>> f16b33643ed35c1438aea6420e00c00adebeeb22
                 </ul>
                 </div>
             </div>
@@ -106,12 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-<<<<<<< HEAD
                                     <li>SELECT * FROM user WHERE salary=12000;</li>
-=======
-                                    <li>select * from user where userid = 3</li>
-                                
->>>>>>> f16b33643ed35c1438aea6420e00c00adebeeb22
                                     </ul>
                                 </p>
 							</div>
