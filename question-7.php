@@ -98,7 +98,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>select * from user where userid = 3</li>
+                                    <li>select * from user where UserId = 3</li>
                                 
                                     </ul>
                                 </p>
