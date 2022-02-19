@@ -7,7 +7,7 @@ if (ISSET($cmd)) {
     echo "Query => " . $cmd . "<br>";
     // $result = $db->query($cmd);
     $cmd = "<a style='color: #9936f3;'>".$cmd." Database test"."</a>";
-    if ($key == "CREATE" || $key == "create" || $key == "Create") {
+    if ($key == "SELECT" || $key == "select" || $key == "Select") {
         echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
     }else{
         echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
