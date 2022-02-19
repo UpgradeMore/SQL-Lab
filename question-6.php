@@ -74,16 +74,15 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 6</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+                    Write a Query to Insert a new record into the table where table name is user.
+                    column1 is UserID column2 is FirstName and column3 is LastName and column4 is Email.
                 <br><br>
-                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>INSERT INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...); </li>
                 </ul>
                 </div>
             </div>

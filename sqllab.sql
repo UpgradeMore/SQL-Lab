@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2022 at 05:54 PM
+-- Generation Time: Feb 19, 2022 at 08:02 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.4.20
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `user` (
-  `EmpID` int(11) DEFAULT NULL,
+  `UserID` int(11) DEFAULT NULL,
   `FirstName` varchar(255) DEFAULT NULL,
   `LastName` varchar(255) DEFAULT NULL,
   `Email` varchar(255) DEFAULT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`EmpID`, `FirstName`, `LastName`, `Email`, `Address`, `Salary`, `City`) VALUES
+INSERT INTO `user` (`UserID`, `FirstName`, `LastName`, `Email`, `Address`, `Salary`, `City`) VALUES
 (1, 'abhiram', 'sharma', 'abhiramsharma@gmail.com', 'navlakha square', 10000, 'indore'),
 (2, 'aman', 'sharma', 'amansharma@gmail.com', 'Bangali square', 12000, 'indore'),
 (3, 'shiva', 'sharma', 'shivasharma@gmail.com', 'navlakha square', 15000, 'indore');
