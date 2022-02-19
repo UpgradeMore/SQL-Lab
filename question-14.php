@@ -74,14 +74,14 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 14</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               Which Statement we use to Create Database?
+               Write a query to increment the salary of all the user by 10% who have salary greater than or equal to 12000.
                 <br><br>
                 Example:
                 <ul>
-                <li>_____ DATABASE TEST;</li>
+                <li>UPDATE user SET column_name= column_name + (column_name * 10 / 100) WHERE column_name > value;</li>
                 </ul>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>CREATE DATABASE Test; </li>
+                                    <li>UPDATE user SET salary= salary + (salary * 10 / 100) WHERE salary > 12000;</li>
                                     </ul>
                                 </p>
 							</div>
@@ -102,10 +102,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-13.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-15.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-1.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-14.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
