@@ -74,7 +74,7 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 15</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
                Which Statement we use to Create Database?
@@ -102,10 +102,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-14.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="finished.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
