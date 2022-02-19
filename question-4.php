@@ -77,11 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 4</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               Which Statement we use to Select Database?
+               Which Statement we use to print all the data from a table?
                 <br><br>
                 Example:
                 <ul>
-                <li>_____ DATABASE TEST;</li>
+                <li>_____ * FROM user;</li>
                 </ul>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>SELECT DATABASE Test; </li>
+                                    <li><a style='color: #00FF00;'><b>SELECT</b></a> * FROM user;</li>
                                     </ul>
                                 </p>
 							</div>

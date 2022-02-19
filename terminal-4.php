@@ -3,10 +3,10 @@ include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
     $key = $cmd;
-    $cmd = $cmd." Database test;";
+    $cmd = $cmd." * FROM user;";
     echo "Query => " . $cmd . "<br>";
     // $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>".$cmd." Database test"."</a>";
+    $cmd = "<a style='color: #9936f3;'>".$cmd." * FROM user;"."</a>";
     if ($key == "SELECT" || $key == "select" || $key == "Select") {
         echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
     }else{
