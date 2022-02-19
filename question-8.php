@@ -74,16 +74,14 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 8</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+                    Write a query to update salary of <b>aman</b> to <b>15000</b>.
                 <br><br>
-                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>UPDATE table_name SET column_name = value WHERE column_name= value;</li>
                 </ul>
                 </div>
             </div>
@@ -94,10 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+                                    <li>UPDATE user SET salary=15000 WHERE FirstName="aman"</li>
                                     </ul>
                                 </p>
 							</div>
@@ -107,10 +102,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-7.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-9.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
@@ -153,7 +148,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-6.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-8.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
