@@ -77,10 +77,13 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 6</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                    Write a Query to Insert a new record into the table where: <br> Table name is user, <br>
-                    column1 is UserID,<br> column2 is FirstName,<br>column3 is LastName,<br> and column4 is Email,<br>
-                    column5 is Address,<br> column6 is Salary,<br> column7 is City.
-                <br><br>
+                    Write a Query to Insert a new record into the table where: 
+                    <ul>
+                        <li> Table name is user, </li><li>
+                    column1 is UserID,</li><li>column2 is FirstName,</li><li>column3 is LastName,</li><li>column4 is Email,</li><li>
+                    column5 is Address,</li><li> column6 is Salary,</li><li> column7 is City.</li>
+                    </ul>
+                <br>
                 Example:
                 <ul>
                 <li>INSERT INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...); </li>
@@ -94,10 +97,9 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+                                    <li>INSERT INTO Emp (EmpID, FirstName, LastName,Email,Address,Salary, City)<br>
+                                    VALUES (3, "udit", "singh", "uditsingh@gmail.com", "Near airpot",
+                                     150000, "goa");</li>
                                     </ul>
                                 </p>
 							</div>
@@ -107,10 +109,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-5.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-7.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
