@@ -77,14 +77,15 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 3</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+                Which Statement we use to Insert Database?
                 <br><br>
-                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>_____ DATABASE TEST;</li>
                 </ul>
+              
+               
+                
                 </div>
             </div>
             
@@ -93,12 +94,7 @@
 						<div class="collapse" id="panel-1">
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
-                                    <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
-                                    </ul>
+                                    
                                 </p>
 							</div>
 						</div>
@@ -107,10 +103,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-3.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-4.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
