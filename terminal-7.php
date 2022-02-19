@@ -3,10 +3,9 @@ include("db.php");
 error_reporting(0);
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    $cmd = "Select * ". $cmd ." user";
     echo "Query => " . $cmd . "<br>";
     $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>"."Select * ".$cmd." user"."</a>";
+    $cmd = "<a style='color: #9936f3;'>".$cmd."</a>";
     if (!$result) {
         echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
     }else{
