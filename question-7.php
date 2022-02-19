@@ -77,17 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 7</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                     Write a Query to fetch a record in the table where:
+                Write a Query to print all the users who have a salary of 12000.
                 <br><br>
-               
                 Example:
                 <ul>
-                <li>select *</li>
-                <li>from emp</li>
-                <li>where deptno = 10</li>
-                <li>or comm is not null</li>
-                <li>or sal <= 2000 and deptno=20</li>
-               
+                <li>SELECT all FROM table_name WHERE column_name=value;</li>
                 </ul>
                 </div>
             </div>
@@ -98,8 +92,12 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
+<<<<<<< HEAD
                                     <li>select * from user where UserId = 3</li>
                                 
+=======
+                                    <li>SELECT * FROM user WHERE salary=12000;</li>
+>>>>>>> c898b74f3773d20c52ada17499dfbfa5c3ed508d
                                     </ul>
                                 </p>
 							</div>
@@ -155,7 +153,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-3.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-7.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
