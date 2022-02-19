@@ -77,11 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 3</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                Which Statement we use to Insert Database?
+                Which statement is used to insert new records in a table.
                 <br><br>
                 Example:
                 <ul>
-                <li>_____ DATABASE TEST;</li>
+                <li>____ INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...); </li>
                 </ul>
               
                
@@ -94,7 +94,9 @@
 						<div class="collapse" id="panel-1">
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
-                                    
+                                <ul>
+                                    <li><a style='color: #00FF00;'><b>INSERT</b></a> INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...);</li>
+                                </ul>
                                 </p>
 							</div>
 						</div>

@@ -3,10 +3,10 @@ include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
     $key = $cmd;
-    $cmd = $cmd." Database test;";
+    $cmd = $cmd." INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...);";
     echo "Query => " . $cmd . "<br>";
     // $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>".$cmd." Database test"."</a>";
+    $cmd = "<a style='color: #9936f3;'>".$cmd." INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...);"."</a>";
     if ($key == "INSERT" || $key == "insert" || $key == "Insert") {
         echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
     }else{
