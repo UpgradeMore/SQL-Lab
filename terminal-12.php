@@ -3,18 +3,17 @@ include("db.php");
 error_reporting(0);
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    $key = $cmd;
-    $cmd = $cmd." Database test;";
+    $cmd = $cmd;
     echo "Query => " . $cmd . "<br>";
-    // $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>".$cmd." Database test"."</a>";
-    if ($key == "CREATE" || $key == "create" || $key == "Create") {
-        echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
-    }else{
+    $result = $db->query($cmd);
+    $cmd = "<a style='color: #9936f3;'>".$cmd."</a>";
+    if (!$result) {
         echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
-        // foreach($result as $r) {
-        // echo  implode(" | ",$r) . "<br>";
-        // }
+    }else{
+        echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
+        foreach($result as $r) {
+        echo  implode(" | ",$r) . "<br>";
+        }
     }
     die(); 
 }

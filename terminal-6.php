@@ -3,7 +3,7 @@ include("db.php");
 error_reporting(0);
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    echo "Query => " . $cmd . ";<br>";
+    echo "Query => " . $cmd . "<br>";
     $result = $db->query($cmd);
     $cmd = "<a style='color: #9936f3;'>".$cmd."</a>";
     if (!$result) {
