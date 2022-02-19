@@ -77,11 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 15</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               Which Statement we use to Create Database?
+               Find the Key Somwhere in this Database xD.
                 <br><br>
-                Example:
+                Hint:
                 <ul>
-                <li>_____ DATABASE TEST;</li>
+                <li>Udit says Passwords are not Secure on Internet.</li>
                 </ul>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>CREATE DATABASE Test; </li>
+                                    <li>HiHi Try harder xD.</li>
                                     </ul>
                                 </p>
 							</div>
@@ -148,7 +148,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-1.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-15.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
