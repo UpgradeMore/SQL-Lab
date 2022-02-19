@@ -74,15 +74,15 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 2</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 5</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                    Delete the database you created in question 1.
-                <br><br>
-                Example:
-                <ul>
-                <li>___ _______ YourName;</li>
-                </ul>
+                   What Statement we use to  add, delete, or modify columns in an existing table?
+                    <br><br>
+                    Example:<br>
+                    ______TABLE table_name<br>
+                    ADD column_name datatype;
+                
                 </div>
             </div>
             
@@ -92,7 +92,8 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>DROP DATABASE YourName;</li>
+                                    <li><a style='color: #00FF00;'><b>ALTER</b></a> TABLE table_name<br>
+                                     ADD column_name datatype;</li>
                                     </ul>
                                 </p>
 							</div>
@@ -102,10 +103,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-5.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-6.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
@@ -148,7 +149,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-2.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-5.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>

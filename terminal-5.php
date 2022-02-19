@@ -2,17 +2,20 @@
 include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    $cmd =  $cmd;
-    echo "Query => " . $cmd . ";<br>";
-    $result = $db->query($cmd);
-    $cmd = "<a style='color: #9936f3;'>"."Select * ".$cmd." user"."</a>";
-    if (!$result) {
-        echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
-    }else{
+    $key = $cmd;
+    $cmd = $cmd." TABLE table_name
+    ADD column_name datatype;";
+    echo "Query => " . $cmd . "<br>";
+    // $result = $db->query($cmd);
+    $cmd = "<a style='color: #9936f3;'>".$cmd." TABLE table_name
+    ADD column_name datatype;"."</a>";
+    if ($key == "ALTER" || $key == "alter" || $key == "Alter") {
         echo "<a style='color: 	#00FF00;'>"."Correct answer!!!". "</a>" . "<br>";
-        foreach($result as $r) {
-        echo  implode(" | ",$r) . "<br>";
-        }
+    }else{
+        echo "<a style='color: #ff0000;'>"."Wrong answer! Try again...". "</a>" . "<br>";
+        // foreach($result as $r) {
+        // echo  implode(" | ",$r) . "<br>";
+        // }
     }
     die(); 
 }
