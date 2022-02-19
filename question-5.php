@@ -103,7 +103,7 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="question-5.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-4.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
                     <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-6.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
