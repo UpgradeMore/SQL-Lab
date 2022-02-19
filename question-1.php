@@ -77,11 +77,11 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               What Keyword we use for selecting Data from database?
+               Create a Database of <b>your name</b> using MySQL Query.
                 <br><br>
                 Example:
                 <ul>
-                <li>_____ * FROM user;</li>
+                <li>_____ ______ YourName;</li>
                 </ul>
                 </div>
             </div>
@@ -92,10 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+                                    <li>CREATE DATABASE YourName; </li>
                                     </ul>
                                 </p>
 							</div>
@@ -126,7 +123,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                 <div class="sidebar-heading" style="font-size: 35px;color: #fff;">
-                            <b style="margin-left: 200px;">Basic Linux Commands Lab</b>
+                            <b style="margin-left: 200px;">Basic SQL Lab</b>
                 </div>
 
                     <!-- Sidebar Toggle (Topbar) -->
