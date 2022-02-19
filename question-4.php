@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Linux Lab | UpgradeMore</title>
+    <title>SQL Lab | UpgradeMore</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -74,14 +74,14 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 4</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               Which Statement we use to Create Database?
+               Which Statement we use to print all the data from a table?
                 <br><br>
                 Example:
                 <ul>
-                <li>_____ DATABASE TEST;</li>
+                <li>_____ * FROM user;</li>
                 </ul>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>CREATE DATABASE Test; </li>
+                                    <li><a style='color: #00FF00;'><b>SELECT</b></a> * FROM user;</li>
                                     </ul>
                                 </p>
 							</div>
@@ -102,10 +102,10 @@
               <div class="container" style="margin-top: 25px;">
                 <div class="row">
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom"><a href="index.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
+                    <button type="button" class="btn btn-primary custom"><a href="question-3.php" style="color: #fff; text-decoration: none;"><b>Back</b></a></button>
                   </div>
                   <div class="col-sm">
-                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-2.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
+                    <button type="button" class="btn btn-primary custom" style="margin-left: 165px;"><a href="question-5.php" style="color: #fff; text-decoration: none;"><b>Next</b></a></button>
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-1.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-4.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
