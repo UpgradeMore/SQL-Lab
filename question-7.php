@@ -92,7 +92,12 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
+<<<<<<< HEAD
+                                    <li>select * from user where UserId = 3</li>
+                                
+=======
                                     <li>SELECT * FROM user WHERE salary=12000;</li>
+>>>>>>> c898b74f3773d20c52ada17499dfbfa5c3ed508d
                                     </ul>
                                 </p>
 							</div>
