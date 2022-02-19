@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Linux Lab | UpgradeMore</title>
+    <title>SQL Lab | UpgradeMore</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -74,16 +74,28 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 7</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+<<<<<<< HEAD
+                Write a Query to print all the users who have a salary of 12000.
                 <br><br>
-                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>SELECT all FROM table_name WHERE column_name=value;</li>
+=======
+                     Write a Query to fetch a record in the table where:
+                <br><br>
+               
+                Example:
+                <ul>
+                <li>select *</li>
+                <li>from emp</li>
+                <li>where deptno = 10</li>
+                <li>or comm is not null</li>
+                <li>or sal <= 2000 and deptno=20</li>
+               
+>>>>>>> f16b33643ed35c1438aea6420e00c00adebeeb22
                 </ul>
                 </div>
             </div>
@@ -94,10 +106,12 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+<<<<<<< HEAD
+                                    <li>SELECT * FROM user WHERE salary=12000;</li>
+=======
+                                    <li>select * from user where userid = 3</li>
+                                
+>>>>>>> f16b33643ed35c1438aea6420e00c00adebeeb22
                                     </ul>
                                 </p>
 							</div>
@@ -153,7 +167,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-3.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-7.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
