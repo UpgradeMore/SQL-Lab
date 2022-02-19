@@ -2,7 +2,7 @@
 include("db.php");
 $cmd = $_POST['cmd'];
 if (ISSET($cmd)) {
-    $cmd = "Select * ". $cmd ." user";
+    $cmd =  $cmd;
     echo "Query => " . $cmd . ";<br>";
     $result = $db->query($cmd);
     $cmd = "<a style='color: #9936f3;'>"."Select * ".$cmd." user"."</a>";

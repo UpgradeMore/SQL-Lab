@@ -128,7 +128,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                 <div class="sidebar-heading" style="font-size: 35px;color: #fff;">
-                            <b style="margin-left: 200px;">Basic SQL Lab</b>
+                            <b style="margin-left: 200px;">Basic DBMS or SQL Lab</b>
                 </div>
 
                     <!-- Sidebar Toggle (Topbar) -->

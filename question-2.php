@@ -74,16 +74,14 @@
 
             <div class="card shadow mb-4" style="margin-left: 15px;margin-right: 15px;margin-top: 20px;">
                 <div class="card-header">
-                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
+                    <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 2</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
+                    Delete the database you created in question 1.
                 <br><br>
-                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>how to check current user in Linux.</li>
-                <li>How to check server hostname in linux.</li>
+                <li>___ _______ YourName;</li>
                 </ul>
                 </div>
             </div>
@@ -94,10 +92,7 @@
 							<div class="pt-3">
 								<p class="mb-0" style="color: #fff;">
                                     <ul>
-                                    <li>whoami</li>
-                                    <li>hostname</li>
-                                    <li>pwd</li>
-                                    <li>uname -a</li>
+                                    <li>DROP DATABASE YourName;</li>
                                     </ul>
                                 </p>
 							</div>
@@ -128,7 +123,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                 <div class="sidebar-heading" style="font-size: 35px;color: #fff;">
-                            <b style="margin-left: 200px;">Basic SQL Lab</b>
+                            <b style="margin-left: 200px;">Basic DBMS or SQL Lab</b>
                 </div>
 
                     <!-- Sidebar Toggle (Topbar) -->
