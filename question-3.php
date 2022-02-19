@@ -79,6 +79,8 @@
                 <div class="card-body" style="background-color: #131417;">
                 Which statement is used to insert new records in a table.
                 <br><br>
+                <b>Note:</b> this Question has one word answer.
+                <br>
                 Example:
                 <ul>
                 <li>____ INTO table_name (column1, column2, column3, ...)<br>VALUES (value1, value2, value3, ...); </li>

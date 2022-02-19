@@ -78,7 +78,9 @@
                 </div>
                 <div class="card-body" style="background-color: #131417;">
                Which Statement we use to Create Database?
-                <br><br>
+               <br><br>
+                <b>Note:</b> this Question has one word answer.
+                <br>
                 Example:
                 <ul>
                 <li>_____ DATABASE TEST;</li>

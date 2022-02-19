@@ -78,8 +78,10 @@
                 </div>
                 <div class="card-body" style="background-color: #131417;">
                    What Statement we use to Delete the database?
-                    <br><br>
-                    Example:
+                   <br><br>
+                <b>Note:</b> this Question has one word answer.
+                <br>
+                Example:
                 <ul>
                 <li>___ DATABASE test;</li>
                 </ul>

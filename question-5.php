@@ -78,8 +78,11 @@
                 </div>
                 <div class="card-body" style="background-color: #131417;">
                    What Statement we use to  add, delete, or modify columns in an existing table?
-                    <br><br>
-                    Example:<br>
+                   <br><br>
+                <b>Note:</b> this Question has one word answer.
+                <br>
+                Example:
+                    <br>
                     ______TABLE table_name<br>
                     ADD column_name datatype;
                 
