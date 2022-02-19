@@ -77,8 +77,9 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 6</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-                    Write a Query to Insert a new record into the table where table name is user.
-                    column1 is UserID column2 is FirstName and column3 is LastName and column4 is Email.
+                    Write a Query to Insert a new record into the table where: <br> Table name is user, <br>
+                    column1 is UserID,<br> column2 is FirstName,<br>column3 is LastName,<br> and column4 is Email,<br>
+                    column5 is Address,<br> column6 is Salary,<br> column7 is City.
                 <br><br>
                 Example:
                 <ul>
