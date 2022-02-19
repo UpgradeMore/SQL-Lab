@@ -77,11 +77,13 @@
                     <h6 class="m-0 font-weight-bold" style="color: #fff;">Question 1</h6>
                 </div>
                 <div class="card-body" style="background-color: #131417;">
-               What Keyword we use for selecting Data from database?
+                So The objective of our first Question is to find the current user's Username, Server Hostname, Current Working Directory, and System Information.
                 <br><br>
+                You can search on the Internet for Linux commands.
                 Example:
                 <ul>
-                <li>_____ * FROM user;</li>
+                <li>how to check current user in Linux.</li>
+                <li>How to check server hostname in linux.</li>
                 </ul>
                 </div>
             </div>
@@ -151,7 +153,7 @@
                 </nav>
 
                 <html> 
-<iframe width="80%" height="80%" src="terminal-1.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
+<iframe width="80%" height="80%" src="terminal-2.php" frameborder="yes" scrolling="yes" name="myIframe" id="myIframe" style="margin-left: 90px;"> </iframe>
 
 
             </div>
