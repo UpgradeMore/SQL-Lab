@@ -1773,9 +1773,9 @@
   <!-- ======= Hero Section ======= -->
   <section class="hero" id="hero">
     <div class="hero-container">
-      <img src="https://upgrademore.com/_next/static/images/logo-dark-2ff1f730c72954aa4b2e9ce841833720.png" alt="logo"
+      <img src="https://i.imgur.com/L7deu3c.png" alt="logo"
         style="/*! height: 30px; */max-width: 250px;padding-top: -3px;/*! margin-top: 10px; */margin-bottom: -20px;">
-      <h1 data-aos="zoom-in"><b>Congratulations on Solving Linux Lab!</h1>
+      <h1 data-aos="zoom-in"><b>Congratulations on Solving SQL Lab!</h1>
       <h2 data-aos="fade-up">best of Luck for the upcoming Challenges during our Cyber Security Virtual Experience Program.</h2>
       <a data-aos="fade-up" data-aos-delay="200" href="https://upgrademore.com/" class="btn-get-started scrollto"
         style="text-decoration: none;"><b>Home</b></a>
@@ -1803,7 +1803,7 @@
 
   <!-- Vendor JS Files -->
   <script type="text/javascript">
-    const secret = 'L7yDzPGKsuddQ7fParXx4pDaJjBey5';
+    const secret = 'rW4TtrcMGD7LjUT4K5FnsrhkZ78HRemm8AmwHxuJk';
 const hero = document.querySelector('.hero');
 hero.style.display = 'none';
 const checker = document.querySelector('.checker');

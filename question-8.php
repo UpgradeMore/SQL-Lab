@@ -37,7 +37,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <img src="https://upgrademore.com/_next/static/images/logo-dark-2ff1f730c72954aa4b2e9ce841833720.png" alt="logo" style="height: 60px;max-width: 200px;padding-top: -3px;margin-top: 10px;margin-left: 160px;margin-bottom: 15px;">
+            <img src="https://i.imgur.com/L7deu3c.png" alt="logo" style="height: 60px;max-width: 200px;padding-top: -3px;margin-top: 10px;margin-left: 160px;margin-bottom: 15px;">
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
